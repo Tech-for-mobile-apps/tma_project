@@ -55,7 +55,7 @@ export default function Calendar() {
         selectedDayTextColor="#000000"
         scaleFactor={375}
         textStyle={{
-          fontFamily: 'System', // Replaced with default font
+          fontFamily: 'System',
           color: '#000000',
         }}
         onDateChange={onDateChange}
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
   dateText: {
     fontSize: 14,
     textAlign: 'center',
-    fontFamily: 'System', // Use default font
+    fontFamily: 'System', 
   },
   eventContainer: {
     margin: 10,
@@ -112,31 +112,31 @@ const styles = StyleSheet.create({
   eventTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    fontFamily: 'System', // Use default font
+    fontFamily: 'System', 
   },
   eventTime: {
     fontSize: 16,
     color: '#555555',
-    fontFamily: 'System', // Use default font
+    fontFamily: 'System', 
   },
   eventEndTime: {
     fontSize: 16,
     color: '#555555',
-    fontFamily: 'System', // Use default font
+    fontFamily: 'System', 
   },
   eventVenue: {
     fontSize: 16,
     color: '#555555',
-    fontFamily: 'System', // Use default font
+    fontFamily: 'System', 
   },
   eventAttendees: {
     fontSize: 16,
     color: '#555555',
-    fontFamily: 'System', // Use default font
+    fontFamily: 'System', 
   },
   eventNotes: {
     fontSize: 16,
     color: '#555555',
-    fontFamily: 'System', // Use default font
+    fontFamily: 'System', 
   },
 });

@@ -37,7 +37,7 @@ const DiscoverScreen = () => {
       location: 'Campus Greens, University of Cincinnati, Cincinnati, Ohio',
       description: 'An evening of live music and entertainment.',
       participants: '50+',
-      date: '2024-04-28', // Date in ISO 8601 format (YYYY-MM-DD)
+      date: '2024-04-28',
     },
     {
       id: '2',
@@ -48,7 +48,7 @@ const DiscoverScreen = () => {
       location: 'TDC-350, University of Cincinnati, Cincinnati, Ohio',
       description: 'A talk on the latest in technology and innovation.',
       participants: '30+',
-      date: '2024-04-29', // Date in ISO format
+      date: '2024-04-29', 
     },
     {
       id: '3',
@@ -59,7 +59,7 @@ const DiscoverScreen = () => {
       location: 'DAAP, University of Cincinnati, Cincinnati, Ohio',
       description: 'An exhibition showcasing local artists and their work.',
       participants: '20+',
-      date: '2024-04-30', // Date for the event
+      date: '2024-04-30',
     },
     {
       id: '4',
@@ -70,7 +70,7 @@ const DiscoverScreen = () => {
       location: 'Rhodes Hall -503, University of Cincinnati, Cincinnati, Ohio',
       description: 'A science fair featuring student projects and experiments.',
       participants: '40+',
-      date: '2024-05-01', // Date for the science fair
+      date: '2024-05-01', 
     },
     {
       id: '5',
@@ -81,7 +81,7 @@ const DiscoverScreen = () => {
       location: 'Langsam Library, University of Cincinnati, Cincinnati, Ohio',
       description: 'A book reading session with a local author.',
       participants: '40+',
-      date: '2024-05-02', // Date for the book reading
+      date: '2024-05-02', 
     },
     {
       id: '6',
@@ -92,7 +92,7 @@ const DiscoverScreen = () => {
       location: 'Outside Linder, University of Cincinnati, Cincinnati, Ohio',
       description: 'A food festival featuring local vendors and cuisine.',
       participants: '100+',
-      date: '2024-05-03', // Date for the food festival
+      date: '2024-05-03', 
     },
   ];
   const [sentRequests, setSentRequests] = useState([]);
@@ -215,13 +215,13 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   personItemContainer: {
-    width: 150, // Width of the person container
-    height: 200, // Height of the person container
+    width: 150, 
+    height: 200, 
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 15,
     marginVertical: 10,
-    backgroundColor: '#fff', // White background
+    backgroundColor: '#fff', 
     borderRadius: 10,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
@@ -230,35 +230,35 @@ const styles = StyleSheet.create({
     elevation: 4,
   },
   personItem: {
-    flexDirection: 'column', // Vertical alignment
-    alignItems: 'center', // Center-align content
-    justifyContent: 'center', // Align in the middle
-    height: '100%', // Ensure content fills the container's height
+    flexDirection: 'column', 
+    alignItems: 'center', 
+    justifyContent: 'center', 
+    height: '100%', 
   },
   profilePic: {
     width: 70,
     height: 70,
-    borderRadius: 35, // Circular images
+    borderRadius: 35, 
   },
   personName: {
     fontSize: 18,
     fontWeight: 'bold',
-    marginTop: 10, // Space between image and name
-    textAlign: 'center', // Center-align text
+    marginTop: 10, 
+    textAlign: 'center', 
   },
   connectButton: {
-    padding: 12, // Padding for the button
-    borderRadius: 6, // Smooth edges
-    alignSelf: 'center', // Center-align the button
+    padding: 12, 
+    borderRadius: 6, 
+    alignSelf: 'center', 
   },
   defaultButton: {
-    backgroundColor: 'blue', // Green for default state
+    backgroundColor: 'blue', 
   },
   requestSent: {
-    backgroundColor: 'green', // Change to green when request is sent
+    backgroundColor: 'green', 
   },
   connectButtonText: {
-    color: '#fff', // White text for button
+    color: '#fff', 
     fontSize: 16,
     fontWeight: 'bold',
   },

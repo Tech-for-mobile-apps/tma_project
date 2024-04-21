@@ -58,8 +58,8 @@ const ProfileScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5F5F5', // Light gray background
-    padding: 16, // Padding for container
+    backgroundColor: '#F5F5F5', 
+    padding: 16, 
   },
   header: {
     fontSize: 22,
@@ -68,29 +68,29 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   sectionContainer: {
-    backgroundColor: '#FFF', // White background for sections
-    borderRadius: 10, // Rounded corners for card effect
-    padding: 16, // Padding for the section
-    marginBottom: 16, // Space between sections
-    shadowColor: '#000', // Shadow color for card effect
-    shadowOffset: { width: 0, height: 2 }, // Offset for shadow
-    shadowOpacity: 0.1, // Shadow opacity
-    shadowRadius: 5, // Shadow radius
-    elevation: 4, // Elevation for shadow effect
+    backgroundColor: '#FFF', 
+    borderRadius: 10, 
+    padding: 16, 
+    marginBottom: 16, 
+    shadowColor: '#000', 
+    shadowOffset: { width: 0, height: 2 }, 
+    shadowOpacity: 0.1, 
+    shadowRadius: 5, 
+    elevation: 4, 
   },
   sectionTitle: {
     fontWeight: 'bold',
-    color: '#333', // Darker text for section titles
-    paddingBottom: 10, // Padding for the section title
+    color: '#333', 
+    paddingBottom: 10, 
   },
   settingOption: {
-    flexDirection: 'row', // Layout for option
-    alignItems: 'center', // Align icon and text
-    paddingVertical: 10, // Padding for option
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    paddingVertical: 10, 
   },
   optionText: {
     fontSize: 16,
-    marginLeft: 10, // Space between icon and text
+    marginLeft: 10, 
   },
  
 });

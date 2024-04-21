@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     alignItems: 'center',
-    backgroundColor: '#f4f4f4', // Light background color
+    backgroundColor: '#f4f4f4', 
   },
   eventImage: {
     width: 300,
@@ -79,39 +79,39 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   detailsContainer: {
-    padding: 20, // Ensure padding within the container
+    padding: 20, 
     borderRadius: 10,
-    backgroundColor: '#ffffff', // White background
-    shadowColor: '#000', // Shadow for depth effect
+    backgroundColor: '#ffffff', 
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 5,
-    width: '100%', // Ensure the container fills the available width
+    width: '100%', 
     marginBottom: 20,
   },
   detailItem: {
-    flexDirection: 'row', // Layout for each detail
-    alignItems: 'center', // Align items in a row
-    marginBottom: 10, // Space between items
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    marginBottom: 10, 
   },
   label: {
     fontWeight: 'bold',
-    color: '#333', // Darker gray for label
-    marginRight: 10, // Space between label and text
+    color: '#333', 
+    marginRight: 10, 
   },
   detailText: {
     fontSize: 16,
-    color: '#666', // Gray text for details
-    flex: 1, // Allow text to flex and wrap within the container
-    flexWrap: 'wrap', // Ensure text wraps within bounds
+    color: '#666', 
+    flex: 1, 
+    flexWrap: 'wrap', 
   },
   rsvpButton: {
-    padding: 15, // Padding for button
+    padding: 15, 
     borderRadius: 10,
-    alignSelf: 'center', // Center the RSVP button
+    alignSelf: 'center', 
   },
   rsvpText: {
-    color: '#fff', // White text for RSVP button
+    color: '#fff', 
     fontSize: 16,
     fontWeight: 'bold',
   },

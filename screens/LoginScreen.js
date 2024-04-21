@@ -47,30 +47,30 @@ const LoginScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center', // Center content vertically
-    padding: 20, // Additional padding for breathing room
-    backgroundColor: '#f9f9f9', // Light background color
+    justifyContent: 'center', 
+    padding: 20, 
+    backgroundColor: '#f9f9f9',
   },
   header: {
-    fontSize: 26, // Slightly larger font for the header
+    fontSize: 26, 
     fontWeight: 'bold',
-    textAlign: 'center', // Center-align the header
-    color: '#333', // Darker color for contrast
-    marginBottom: 24, // More space below the header
+    textAlign: 'center', 
+    color: '#333', 
+    marginBottom: 24, 
   },
   inputContainer: {
-    marginBottom: 16, // Consistent spacing between input fields
+    marginBottom: 16, 
   },
   button: {
-    backgroundColor: '#1E90FF', // Vibrant blue color
-    borderRadius: 8, // Slightly more rounded corners
-    paddingVertical: 12, // Vertical padding for a comfortable button size
-    paddingHorizontal: 24, // Horizontal padding for a comfortable button size
+    backgroundColor: '#1E90FF', 
+    borderRadius: 8, 
+    paddingVertical: 12, 
+    paddingHorizontal: 24, 
   },
   buttonText: {
-    color: '#fff', // White text for contrast
+    color: '#fff', 
     fontWeight: 'bold',
-    fontSize: 16, // Slightly larger font for better readability
+    fontSize: 16, 
   },
 });
 

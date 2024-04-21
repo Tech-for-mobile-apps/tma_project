@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
     backgroundColor: '#f5f5f5',
-    marginTop:'10%' // Light background color
+    marginTop:'10%' 
   },
   searchBar: {
     height: 40,
@@ -100,34 +100,34 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     paddingHorizontal: 10,
     marginBottom: 20,
-    backgroundColor: '#fff', // White background for the search bar
+    backgroundColor: '#fff', 
   },
   sectionHeader: {
     fontSize: 20,
     fontWeight: 'bold',
-    marginVertical: 10, // Space above and below section header
+    marginVertical: 10, 
   },
   groupItemContainer: {
-    flexDirection: 'row', // Horizontal layout
-    alignItems: 'center', // Center content vertically
+    flexDirection: 'row', 
+    alignItems: 'center', 
     padding: 10,
-    backgroundColor: '#fff', // White background
+    backgroundColor: '#fff', 
     borderRadius: 10,
-    shadowColor: '#000', // Shadow properties
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 3,
-    elevation: 3, // Elevation for shadow
-    marginVertical: 10, // Space between groups
+    elevation: 3, 
+    marginVertical: 10, 
   },
   groupImage: {
-    width: 50, // Image width
-    height: 50, // Image height
-    borderRadius: 25, // Circular image
+    width: 50, 
+    height: 50, 
+    borderRadius: 25, 
   },
   groupDetails: {
-    marginLeft: 10, // Space between image and text
-    flex: 1, // Take up remaining space
+    marginLeft: 10,  
+    flex: 1, 
   },
   groupName: {
     fontSize: 16,
@@ -135,20 +135,20 @@ const styles = StyleSheet.create({
   },
   groupLocation: {
     fontSize: 14,
-    color: '#666', // Gray text
+    color: '#666', 
   },
   groupMembers: {
     fontSize: 14,
-    color: '#666', // Gray text
+    color: '#666',
   },
   joinButton: {
     padding: 10,
     borderRadius: 10,
-    backgroundColor: '#00A2E8', // Blue button for default
+    backgroundColor: '#00A2E8', 
   },
   joinButtonText: {
     fontSize: 14,
-    color: '#fff', // White text
+    color: '#fff', 
   },
 });
 

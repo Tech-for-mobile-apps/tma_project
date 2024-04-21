@@ -125,14 +125,14 @@ const FeedScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5F5F5', // Dark background
+    backgroundColor: '#F5F5F5', 
     padding: 16,
     marginTop: '10%',
   },
   header: {
-    fontSize: 24, // Larger font size
+    fontSize: 24, 
     color: '#000',
-    fontWeight: 'bold', // Bold header
+    fontWeight: 'bold', 
     marginBottom: 16,
   },
   filterContainer: {
@@ -141,72 +141,72 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   flatList: {
-    height: 200, // FlatList's height restriction
+    height: 200, 
   },
   filterButton: {
     padding: 12,
     borderRadius: 10,
-    backgroundColor: '#A9A9A9', // Neutral color for unselected filters
+    backgroundColor: '#A9A9A9', 
   },
   filterButtonActive: {
-    backgroundColor: '#008B8B', // Active filter color
+    backgroundColor: '#008B8B', 
   },
   filterButtonText: {
-    color: '#fff', // White text
+    color: '#fff', 
   },
   eventItem: {
     width: 220,
-    height: 200, // Increased width to fit more details
-    backgroundColor: '#fff', // White background for event cards
-    padding: 16, // Extra padding
+    height: 200, 
+    backgroundColor: '#fff',
+    padding: 16, 
     marginRight: 10,
     borderRadius: 10,
-    elevation: 4, // Shadow effect
+    elevation: 4, 
   },
   eventImage: {
     width: '100%',
     height: 100,
-    borderRadius: 10, // Rounded corners for the event image
+    borderRadius: 10,
   },
   eventTitle: {
     fontWeight: 'bold',
-    fontSize: 18, // Larger font size for event titles
+    fontSize: 18,
     marginVertical: 5,
   },
   newsContainer: {
     flex : 2,
     justifyContent: 'space-between',
-    backgroundColor: '#f8f8f8', // Light background for the news section
+    backgroundColor: '#f8f8f8', 
   },
   sectionHeader: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#333', // Dark text for contrast
+    color: '#333', 
     marginBottom: 16,
   },
   flatListVertical: {
-    height: 'auto', // Allow vertical scroll
+    height: 'auto', 
   },
   newsItem: {
     backgroundColor: '#fff',
     padding: 16,
     borderRadius: 10,
-    marginBottom: 10, // Separate news items
-    elevation: 5, // Shadow effect
+    marginBottom: 10, 
+    elevation: 5, 
   },
   newsTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#333', // Dark text for visibility
+    color: '#333', 
   },
   newsMeta: {
     fontSize: 14,
-    color: '#555', // Lighter text for meta info
+    color: '#555',
     marginBottom: 8,
   },
   newsContent: {
     fontSize: 16,
-    color: '#666', // Slightly darker text for content
+    color: '#666', 
   },
 });
 

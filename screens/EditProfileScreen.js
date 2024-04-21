@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, Button } from 'react-native';
-import { Picker } from '@react-native-picker/picker'; // For dropdown selection
+import { Picker } from '@react-native-picker/picker'; 
 import { Icon } from 'react-native-elements';
 import { countries } from '../components/countries';
 
@@ -9,7 +9,7 @@ const EditProfileScreen = () => {
   const [email, setEmail] = useState('test@gmail.com');
   const [password, setPassword] = useState('***********');
   const [dateOfBirth, setDateOfBirth] = useState('23/05/1999');
-  const [country, setCountry] = useState('United States'); // Default country selection
+  const [country, setCountry] = useState('United States'); 
 
   const handleProfilePicture = () => {
     // Logic for updating profile picture (e.g., opening image picker)
@@ -84,52 +84,52 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#FFF', // White background
+    backgroundColor: '#FFF', 
   },
   header: {
-    flexDirection: 'row', // Layout for header
-    alignItems: 'center', // Center-align elements in the header
+    flexDirection: 'row', 
+    alignItems: 'center',
   },
   headerText: {
     fontSize: 20,
     fontWeight: 'bold',
-    marginLeft: 10, // Space after the back button
+    marginLeft: 10, 
   },
   profilePictureContainer: {
-    alignItems: 'center', // Center-align the profile picture
-    padding: 20, // Padding around the profile picture
+    alignItems: 'center', 
+    padding: 20,
   },
   profilePicture: {
-    width: 100, // Circle profile picture
+    width: 100, 
     height: 100,
     borderRadius: 50,
-    backgroundColor: '#EFEFEF', // Light gray background
+    backgroundColor: '#EFEFEF', 
     alignItems: 'center',
-    justifyContent: 'center', // Center the camera icon
+    justifyContent: 'center', 
   },
   input: {
-    borderColor: '#CCC', // Border color for input fields
+    borderColor: '#CCC', 
     borderWidth: 1,
     borderRadius: 8,
     padding: 10,
-    marginBottom: 16, // Space between input fields
+    marginBottom: 16, 
   },
   label: {
-    fontWeight: 'bold', // Bold text for labels
-    marginBottom: 8, // Space between label and input field
+    fontWeight: 'bold',
+    marginBottom: 8, 
   },
   picker: {
     height: 50,
     marginBottom: 16,
   },
   saveButton: {
-    backgroundColor: '#4B0082', // Dark purple for the save button
+    backgroundColor: '#4B0082', 
     padding: 12,
     borderRadius: 8,
-    alignItems: 'center', // Center-align text
+    alignItems: 'center', 
   },
   saveButtonText: {
-    color: '#FFF', // White text for the save button
+    color: '#FFF', 
     fontWeight: 'bold',
   },
 });

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // For the "+" icon
-import Calendar from '../components/Calendar'; // Assuming this component exists
+import { Ionicons } from '@expo/vector-icons'; 
+import Calendar from '../components/Calendar'; 
 
 const EventsScreen = ({ navigation }) => {
   return (
@@ -24,19 +24,19 @@ const styles = StyleSheet.create({
     marginTop:'10%',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5', // Light background color
+    backgroundColor: '#f5f5f5', 
   },
   fab: {
-    position: 'absolute', // To position the button at the bottom-right
-    bottom: 20, // Distance from the bottom
-    right: 20, // Distance from the right
-    width: 56, // Button width
-    height: 56, // Button height
-    borderRadius: 28, // Circular shape
-    backgroundColor: '#007AFF', // Blue color for the button
-    justifyContent: 'center', // Center-align the icon
-    alignItems: 'center', // Center-align the icon
-    elevation: 4, // Shadow for the floating button
+    position: 'absolute', 
+    bottom: 20, 
+    right: 20, 
+    width: 56, 
+    height: 56, 
+    borderRadius: 28, 
+    backgroundColor: '#007AFF', 
+    justifyContent: 'center', 
+    alignItems: 'center', 
+    elevation: 4, 
   },
 });
 
